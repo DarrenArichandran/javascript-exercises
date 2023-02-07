@@ -2,7 +2,7 @@ const repeatString = function(string, number) {
     let stringNum = ""
 
 for (let i = 1; i<= number; i++){
-    if (i<0) {
+    if (number <0) {
         return "Error"
     } else {
   stringNum += string;
