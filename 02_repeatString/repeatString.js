@@ -3,7 +3,7 @@ const repeatString = function(string, number) {
     let word = string;
 
 
-for (let i = 1; i<= num; i++){
+for (let i = 0; i<= num; i++){
   let stringNum =  word + word
   return stringNum
 }
