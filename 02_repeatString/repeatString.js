@@ -1,10 +1,9 @@
 const repeatString = function(string, number) {
-    let stringNum = ""
-
-for (let i = 1; i<= number; i++){
-    if (number <0) {
-        return 'Error'
+    let stringNum = "";
+    if (number < 0 ){
+        stringNum = 'Error'
     } else {
+for (let i = 1; i<= number; i++){
   stringNum += string;
     }
 }
