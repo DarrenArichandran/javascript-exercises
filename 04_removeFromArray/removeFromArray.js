@@ -1,4 +1,4 @@
-const removeFromArray = function(myArr, ...args) {
+const removeFromArray = function(...myArr, ...args) {
 
 
     function notincluded(value) {
@@ -8,7 +8,7 @@ const removeFromArray = function(myArr, ...args) {
     }
 
 for (let i =0; i <= (args.length) ; i++) {
-const filtered = myArr.filter(notincluded)
+const filtered = myArr.filter(notincluded);
 return filtered;
 }
 }
