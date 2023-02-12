@@ -6,7 +6,6 @@ const filtered = myArr.filter( value => value != args[0])
 return filtered;
 
 }
-    
 
 
 
