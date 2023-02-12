@@ -2,7 +2,7 @@ const removeFromArray = function(myArr, ...args) {
 
 
 for (let i =0; i <= (args.length) ; i++) {
-return myArr.filter (value, args => value !== args[i])
+return myArr.filter (value, _ , args => value != (args[i]))
 }
 }
 
