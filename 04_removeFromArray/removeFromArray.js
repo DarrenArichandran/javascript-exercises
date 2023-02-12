@@ -2,10 +2,11 @@ const removeFromArray = function(myArr, ...args) {
  const newList =[];
 
     for (let i=0; i<= myArr.length ; i++){
-        if (myArr[i] === args[0] || myArr[i] === args[1]){
+        if (myArr[i] !== args[0] || myArr[i] !== args[1]){
             newList.push(myArr[i]);
         }
     }
+    return newList
 }
 //for (i=0; i<= array.length(); i++){
  //   if (array[i] !== Arguments){
