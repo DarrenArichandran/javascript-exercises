@@ -1,10 +1,7 @@
 const removeFromArray = function(myArr, number) {
- let result = myArr.filter (checkNumber);
+    let newList = myArr.filter(list =! number); 
 
- function checkNumber(figure) {
-     return figure != number;
- }
- return result
+    return newList;
 }
 
 //need to remove "number" from "myArr"
