@@ -1,15 +1,11 @@
 const sumAll = function( a, b) {
 
-let x = a;
-let y = b; 
-
-if (x < y) {
-    for (let i = x; i <= y; i++){
-       return answer += i;   
-    }
-} else { 
-    for (let i = y; i <= x; i++){
-    return answer += i;  
+    if (a < b) {
+    for (let i = a ; i <= b; i++) {
+       return answer = a + i;   
+    } else  (a > b) { 
+    for (let i = b; i <= a; i++){
+    return answer = y + i;  
 } 
 }
 }
