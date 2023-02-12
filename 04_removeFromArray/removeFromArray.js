@@ -1,5 +1,5 @@
 const removeFromArray = function(myArr, ...number) {
-    let filter= myArr.filter( value =>  value != (...number));
+    let filter= myArr.filter( value =>  value != (number));
     return filter
 }
 
