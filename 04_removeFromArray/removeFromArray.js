@@ -1,5 +1,5 @@
 const removeFromArray = function(myArr, number) {
-    let newList = myArr.filter(list =! number); 
+    let newList = myArr.filter(thisArg != number); 
 
     return newList;
 }
