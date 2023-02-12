@@ -1,7 +1,8 @@
-const removeFromArray = function(myArr, number) {
-    let newList = myArr.filter(thisArg != number); 
+removeFromArray([1, 2, 3, 4], 3, 2)
 
-    return newList;
+const removeFromArray = function(myArr, number) {
+    let filter= myArr.filter( value =>  value != (number));
+    return filter
 }
 
 //need to remove "number" from "myArr"
