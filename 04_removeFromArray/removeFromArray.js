@@ -1,6 +1,5 @@
 const removeFromArray = function(myArr, ...args) { 
  let newList =[];
- let myArr =[""];
 
     for (i=0; i<= myArr.length ; i++){
         if (myArr[i] === args[0] || myArr[i] === args[1]){
