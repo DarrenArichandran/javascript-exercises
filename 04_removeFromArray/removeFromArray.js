@@ -1,17 +1,14 @@
-const removeFromArray = function(...myArr, ...args) {
+const removeFromArray = function(myArr, ...args) {
 
 
-    function notincluded(value) {
-        for (let i=0; i <= (args.length) ; i++) {
-        return value !== (args[i]) 
-        }      
-    }
+//for (let i =0; i <= (args.length) ; i++) {
 
-for (let i =0; i <= (args.length) ; i++) {
-const filtered = myArr.filter(notincluded);
+const filtered = myArr.filter(value => value !== args[0]).filter(
+    value => value !== args[1]).filter(value => value !== args[3]).
+    filter(value => value !== args[4]);
 return filtered;
 }
-}
+
 
 
 
