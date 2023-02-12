@@ -3,7 +3,7 @@ const sumAll = function( a, b) {
 let x = a;
 let y = b; 
 
-if (x > y) {
+if (x < y) {
     for (let i = x; i <= y; i++){
        return answer += i;   
     }
