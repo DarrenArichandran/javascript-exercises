@@ -5,7 +5,9 @@ if (Math.sign(a) <= 0 || Math.sign(b) <= 0){
     return "ERROR"
 } else if (Math.sign(a) == NaN|| Math.sign(b) == NaN) {
     return "ERROR"
-} else if (Number.isinteger(a || b) === 0) {
+} else if (Number.isInteger(a) === 0) {
+    return "ERROR"
+} else if (Number.isInteger(b) === 0) {
     return "ERROR"
 } else if (a < b) {
     let x = a;
