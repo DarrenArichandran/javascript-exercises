@@ -3,7 +3,7 @@ const sumAll = function( a, b) {
     let x = a;
     let answer = 0;
 
-    while (x <= b) {
+    while (x < b) {
         x++;
         answer += x;
     }
