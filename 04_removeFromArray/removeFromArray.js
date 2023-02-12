@@ -1,7 +1,8 @@
 const removeFromArray = function(array, ...value) { 
-for (i = 1; i <= removeFromArray.length(); i++) {
+for (i = 1; i <= 2; i++) {
    filtered = array.filter(x => x != value);
     }
+    return filtered
 }
 
 //need to remove "number" from "myArr"
