@@ -1,12 +1,7 @@
 const removeFromArray = function(myArr, ...args) { 
- const newList =[];
+  const newList = myArr.filter( x => myArr[i] !== args[0] || myArr[i] !== args[2] );
 
-    for (let i=0; i<= myArr.length ; i++){
-        if (myArr[i] !== args[0] || myArr[i] !== args[1]){
-            newList.push(myArr[i]);
-        }
-    }
-    return newList
+  return newList
 }
 //for (i=0; i<= array.length(); i++){
  //   if (array[i] !== Arguments){
