@@ -4,6 +4,7 @@ for (let i=0; i <= args.length() ; i++) {
 const filtered = myArr.filter( value => !value.includes(args[i]));
 return filtered
 }
+}
 
 
 
