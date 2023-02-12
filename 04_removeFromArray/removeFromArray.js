@@ -1,12 +1,18 @@
-const removeFromArray = function(array, ...value) { 
-for (i = 1; i <= 2; i++) {
-   filtered = array.filter(x => x != value);
+const removeFromArray = function(array, ...Arguments) { 
+const newList =[]
+    
+for (i=0; i<= array.length(); i++){
+    if (array[i] !== Arguments){
+        newList.push(array[i])
     }
-    return filtered
-}
+
+    return newList
+//let filteredArray = Array.filter( function(match) {
+//  return match != Arguments 
 
 //need to remove "number" from "myArr"
-
+}
+}
 
 // Do not edit below this line
 module.exports = removeFromArray;
