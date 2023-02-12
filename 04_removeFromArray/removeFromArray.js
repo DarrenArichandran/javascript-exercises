@@ -1,8 +1,14 @@
 const removeFromArray = function(myArr, ...args) { 
-  const newList = myArr.filter( x => myArr[i] !== args[0] || myArr[i] !== args[2] );
 
-  return newList
-}
+    function doesntMatch(value ,...args){
+        return (value !== args[0]) || (value !== args[1])
+    }
+
+  const newList = myArr.filter(doesntMatch);
+  return newList;
+  
+
+  }
 //for (i=0; i<= array.length(); i++){
  //   if (array[i] !== Arguments){
    //     newList.push(array[i])
@@ -14,6 +20,7 @@ const removeFromArray = function(myArr, ...args) {
 
 //need to remove "number" from "myArr"
 
+//const newList = myArr.filter( x => myArr !== args[0] || myArr[i] !== args[2] );
 
 
 // Do not edit below this line
