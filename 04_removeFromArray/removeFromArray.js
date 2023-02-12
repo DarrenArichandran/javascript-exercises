@@ -1,5 +1,3 @@
-removeFromArray([1, 2, 3, 4], 3, 2)
-
 const removeFromArray = function(myArr, number) {
     let filter= myArr.filter( value =>  value != (number));
     return filter
