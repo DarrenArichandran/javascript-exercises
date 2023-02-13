@@ -5,6 +5,8 @@ if ( x % 4 === 0) {
         return false;
     } else if ( x % 400 === 0 && x % 4 === 0) {
         return true;
+    } else {
+        return true;
     }
 } else {
     return false;
